@@ -1,4 +1,4 @@
-const API_KEY = "1ebdad5ffa564d41ba189178bd39289d" ; 
+const API_KEY = "YOUR_API_KEY_HERE" ; 
 
 
 const searchBtn = document.getElementById("search-btn");
@@ -145,3 +145,4 @@ cityInput.addEventListener("keyup", (event) => {
 });
 
 document.body.classList.add("default-bg");
+
