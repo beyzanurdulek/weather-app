@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Hava Durumu Uygulaması</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="app">
+        <h1>Hava Durumu</h1>
+
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="city-input" 
+                placeholder="Şehir adı gir (örn: Istanbul)" />
+            <button id="search-btn">Ara</button>
+        </div>
+
+
+        <div id="error-message" class="error hidden"></div>
+
+        <div id="weather-card" class="weather-card hidden">
+    <div class="weather-top">
+        <div id="weather-icon" class="weather-icon">☀️</div>
+
+        <div class="weather-text">
+            <h2 id="city-name"></h2>
+            <p id="description"></p>
+        </div>
+    </div>
+
+    <div class="weather-details">
+        <div class="detail">
+            <span>Sıcaklık</span>
+            <strong id="temp"></strong>
+        </div>
+        <div class="detail">
+            <span>Nem</span>
+            <strong id="humidity"></strong>
+        </div>
+        <div class="detail">
+            <span>Rüzgar</span>
+            <strong id="wind"></strong>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
